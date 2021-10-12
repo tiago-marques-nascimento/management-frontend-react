@@ -1,0 +1,139 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+body {
+	margin:0px;
+	background-color: #eee;
+    font-family: 'Noto Serif JP', sans-serif;
+    font-size: xx-large;
+    color:#555;
+}
+
+a {
+    margin-left:10px;
+    margin-right:10px;
+    font-family: 'Fjalla One', sans-serif;
+    text-decoration: none;
+    color:#f88;
+}
+
+a:link {
+    color:#f88;
+}
+
+a:visited {
+    color:#f88;
+}
+
+a:hover {
+    color:#fcc;
+    cursor: pointer;
+}
+
+a:active {
+    color:#f88;
+}
+
+button {
+    font-family: 'Fjalla One', sans-serif;
+	border-style:none;
+    padding:5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color:#f33;
+    color:#eee;
+    box-shadow: 2px 2px 4px grey;
+}
+
+button:active {
+    background-color: #b22;
+    box-shadow: -2px -2px 4px grey;
+}
+
+input {
+	font-family: 'Noto Serif JP', sans-serif;
+	border-style:solid;
+    padding:5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    color:#333;
+}
+
+textarea {
+	font-family: 'Noto Serif JP', sans-serif;
+	border-style:solid;
+    padding:5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    color:#333;
+}
+
+select {
+	font-family: 'Noto Serif JP', sans-serif;
+	border-style:solid;
+    padding:5px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width:80%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    color:#333;
+    background-color:#fff;
+}
+
+hr {
+    border-color:#888;
+    border-width:1px;
+    border-style:dashed;
+}
+
+table {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+td {
+    padding:10px;
+}
+
+.line {
+    margin:20px;
+    margin-top:20px;
+}
+
+.row {
+    display:inline-block;
+}
+
+.header {
+    box-shadow: 0px 0px 5px grey;
+    background-color:#fff;
+}
+
+.header-title {
+    margin:auto;
+    font-size:50px;
+    width:40%;
+}
+
+.header-links {
+    margin:auto;
+    margin-top:20px;
+    font-size:20px;
+    width:60%;
+}
+
+.body-content {
+    margin:auto;
+    margin-top:40px;
+    width:60%;
+    padding:20px;
+}

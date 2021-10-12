@@ -1,0 +1,25 @@
+.loading-item {
+    margin-top:20%;
+    margin-left:50%;
+    font-size:80px;
+    color:#900;
+    animation: rotation 2s infinite linear;
+}
+
+@keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+
+.loading-background {
+    background-color:rgba(0,0,0,0.4);
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:100%;
+    height:100%;
+}

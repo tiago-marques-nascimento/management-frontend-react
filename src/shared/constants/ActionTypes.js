@@ -1,0 +1,11 @@
+export const PUSH_LOADING = 'PUSH_LOADING';
+export const POP_LOADING = 'POP_LOADING';
+
+export const ADD_ALERT = 'ADD_ALERT';
+export const REMOVE_ALERT = 'REMOVE_ALERT';
+
+export const OPEN_CONFIRMATION = 'OPEN_CONFIRMATION';
+export const CLOSE_CONFIRMATION = 'CLOSE_CONFIRMATION';
+
+export const LOGIN_JWT = 'LOGIN_JWT';
+export const LOGOUT_JWT = 'LOGOUT_JWT';

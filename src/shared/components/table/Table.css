@@ -1,0 +1,23 @@
+.table {
+    font-size: medium;
+}
+
+.table-head {
+    border-bottom-color:#888;
+    border-bottom-style:solid;
+    border-bottom-width:1px;
+    padding:5px;
+    margin:0px;
+}
+
+.table-body-highlight {
+    background-color:#fff;
+    padding:5px;
+    margin:0px;
+}
+
+.table-body-no-highlight {
+    background-color:#fee;
+    padding:5px;
+    margin:0px;
+}
